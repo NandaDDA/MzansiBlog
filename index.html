@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decycle</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Montserrat', Arial, sans-serif; /* Use Montserrat font */
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #e0f7da; /* Light green background */
             text-align: center; /* Center align all text */
         }
         header {
@@ -28,9 +30,10 @@
         .intro, .about, .process {
             margin-bottom: 40px;
         }
-        .intro h1 {
+        .intro h1, .about h2, .process h2 {
             font-size: 2.5em;
             margin-bottom: 20px;
+            text-align: center; /* Center align headings */
         }
         .intro p, .about p, .process p {
             font-size: 1.2em;
@@ -53,7 +56,7 @@
             flex-wrap: wrap;
         }
         .process .image-container .image-wrapper {
-            flex-basis: 45%;
+            flex-basis: 30%;
             margin-bottom: 20px;
         }
         .process .image-container .image-wrapper img {
@@ -84,25 +87,29 @@
             <p><strong>Environmental Cleanup:</strong> Our innovative processes remove harmful waste from poor communities, improving living conditions and reducing pollution.</p>
             <p><strong>Sustainable Fuel Production:</strong> By converting waste into fuel, we offer a greener alternative that helps reduce reliance on traditional fossil fuels.</p>
             <p><strong>Economic Empowerment:</strong> Our solutions not only clean the environment but also create job opportunities and support local economies.</p>
-            <p>Join us in our mission to create a cleaner, more sustainable world. Together, we can turn today's waste into tomorrow's energy.</p>
         </section>
         <section class="process">
-            <h2>Our Process</h2>
+            <h2>Waste products we turn to fuel</h2>
             <div class="image-container">
                 <div class="image-wrapper">
-                    <img src="plastic.jpg" alt="Plastic Waste">
-                    <p>Transforming plastic waste into diesel and HFO</p>
+                    <img src="plastic.jfif" alt="Plastic Waste">
+                    <p>Plastic waste</p>
                 </div>
                 <div class="image-wrapper">
-                    <img src="tyres.jpg" alt="Tyre Waste">
-                    <p>Converting tyres into carbon black and steel</p>
+                    <img src="tyres.jfif" alt="Tyre Waste">
+                    <p>Tyre waste</p>
+                </div>
+                <div class="image-wrapper">
+                    <img src="waste oil.jfif" alt="motor-oil">
+                    <p>Waste Motor-oil pollution</p>
                 </div>
             </div>
+            <h2>Our story</h2>
             <p>
-                Decycle is the brainchild of Nanda Dulal Das Athmanandh, a dedicated young entrepreneur committed to addressing societal challenges in South Africa. Our primary goal at Decycle is to establish a circular economy that not only mitigates environmental impact but also creates value from waste materials, specifically plastic and tyres.
-                Decycle operates on the principle of sustainability and profitability. By extracting maximum value from waste materials, we ensure that every step of our production process minimizes environmental footprint. Our commitment to efficiency and eco-friendly practices drives our mission to provide affordable fuel alternatives while actively preserving our planet's natural resources.
+                Decycle is the brainchild of Nanda Dulal Das Athmanandh, a dedicated young entrepreneur committed to addressing societal and environmental challenges in South Africa. Seeing the effects of plastic pollution in South Africa. Nanda wanted to find a solution to this plastic pollution and found this process to produce fuel from this waste. The process is an old process known as pyrolysis where the plastic, tyres and used motor oil is heated in the absence of oxygen forming a gas which is condensed and using a special distillation machine  turns this “Pyrolysis oil” into Diesel and HFO (Heavy Fuel Oil).Decycle aims to create a circular economy where less advantaged people can use waste to feed themselves and provide cheap fuel to farmers and SMMEs.
             </p>
         </section>
+        <p>Join us in our mission to create a cleaner, more sustainable world. Together, we can turn today's waste into tomorrow's energy.</p>
     </div>
 </body>
 </html>
