@@ -8,10 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Montserrat', Arial, sans-serif; /* Use Montserrat font */
+            font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
             margin: 0;
             padding: 0;
-            background-color: #e0f7da; /* Light green background */
+            background-color: #8dd470; 
             text-align: center; /* Center align all text */
         }
         header {
@@ -27,15 +27,15 @@
             padding: 20px;
             text-align: left; /* Reset text alignment for container */
         }
-        .intro, .about, .process {
+        .intro, .about, .process, .progress, .join-us {
             margin-bottom: 40px;
         }
-        .intro h1, .about h2, .process h2 {
+        .intro h1, .about h2, .process h2, .progress h2, .join-us h2 {
             font-size: 2.5em;
             margin-bottom: 20px;
             text-align: center; /* Center align headings */
         }
-        .intro p, .about p, .process p {
+        .intro p, .about p, .process p, .progress p, .join-us p {
             font-size: 1.2em;
             line-height: 1.6;
             max-width: 800px;
@@ -43,7 +43,7 @@
             text-align: center; /* Center align paragraphs */
         }
         .about strong {
-            color: orange;
+            color: rgb(187, 124, 7);
         }
         .process img {
             max-width: 300px;
@@ -68,13 +68,35 @@
             font-size: 1em;
             margin-top: 10px;
         }
+        footer {
+            background-color: #282c34;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer img {
+            max-width: 50px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        footer p {
+            margin: 0;
+        }
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: orange;
+        }
     </style>
 </head>
 <body>
     <header>
         <img src="01 1.png" alt="Decycle Logo">
-        <h1>Welcome to Decycle</h1>
-        <h2>Where Today's Waste Becomes Tomorrow's Fuel</h2>
+        <h2>Welcome to Decycle</h2>
+        <h3>Where Today's Waste Becomes Tomorrow's Fuel</h3>
     </header>
     <div class="container">
         <section class="intro">
@@ -106,10 +128,18 @@
             </div>
             <h2>Our story</h2>
             <p>
-                Decycle is the brainchild of Nanda Dulal Das Athmanandh, a dedicated young entrepreneur committed to addressing societal and environmental challenges in South Africa. Seeing the effects of plastic pollution in South Africa. Nanda wanted to find a solution to this plastic pollution and found this process to produce fuel from this waste. The process is an old process known as pyrolysis where the plastic, tyres and used motor oil is heated in the absence of oxygen forming a gas which is condensed and using a special distillation machine  turns this “Pyrolysis oil” into Diesel and HFO (Heavy Fuel Oil).Decycle aims to create a circular economy where less advantaged people can use waste to feed themselves and provide cheap fuel to farmers and SMMEs.
+                Decycle is the brainchild of Nanda Dulal Das Athmanandh, a dedicated young entrepreneur committed to addressing societal and environmental challenges in South Africa. Seeing the effects of plastic pollution in South Africa. Nanda wanted to find a solution to this plastic pollution and found this process to produce fuel from this waste. The process is an old process known as pyrolysis where the plastic, tyres and used motor oil is heated in the absence of oxygen forming a gas which is condensed and using a special distillation machine  turns this “Pyrolysis oil” into Diesel and HFO (Heavy Fuel Oil). Decycle aims to create a circular economy where less advantaged people can use waste to feed themselves and provide cheap fuel to farmers and SMMEs.
             </p>
         </section>
-        <p>Join us in our mission to create a cleaner, more sustainable world. Together, we can turn today's waste into tomorrow's energy.</p>
+        <section class="progress">
+            <h2>Progress We Made</h2>
+            <p>Decycle is currently in the process of registering and acquiring the required licenses. Decycle is also in the process of working acquire the funds to get the machinery and premises to set up shop.</p>
+        </section>
     </div>
+    <footer>
+        <img src="01 1.png" alt="Decycle Logo">
+        <p><a href="#">Join Us </a>in our mission to create a cleaner, more sustainable world. Together, we can turn today's waste into tomorrow's energy.</p>
+        <p>All rights reserved &copy; 2024 Decycle</p>
+    </footer>
 </body>
 </html>
